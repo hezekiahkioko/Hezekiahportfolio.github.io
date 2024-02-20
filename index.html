@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang ="en" >
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv ="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your webpage">
+    <meta name="author" content="Your Name">
+    <title>personal portfolio website</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/c9d3c4a4c3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="image/H logo 1.png" class="logo" >
+            <ul id="sidemenu" >
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-times close-icon"onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars menu-icon"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+           <p>GRAPHIC DESIGNER </p><P> DATA ANALYST</P><p>SOFTWARE ENGINEER</p>
+           <h1>Hi, Iam <span>Hezekiah</span> Kioko<br> from Kenya</h1>
+           
+
+        </div>
+        
+
+    </div>
+</div>
+<!--------about me-------------->
+
+<div id ="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/20220113223959_IMG_2071.jpg" alt="my image ">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p>I'm a graphic designer and data analyst, blending creativity with insights. <br>I love turning ideas into eye-catching designs and digging into data to find meaningful insights. <br>
+                    Whether creating visuals or decoding data, I enjoy merging creativity with analytical thinking.</p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span>GRAPHIC DESIGNER</span><br>Poster, Flyers, Logo</li>
+                            <li><span>DATA ANALYST</span><br>Analysing Data using Python</li>
+                            <li><span>SOFTWARE ENGINEER</span><br>Software Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>2023- Current</span><br>TAX CONSULTANT<br>at GILDED AND BRIGHT AFRICA<6ttt/li>
+                            <li><span>July,2022-September,2022</span><br>INTERN Research Department<br> at NATIONAL COUNCIL FOR POPULATION AND DEVELOPMENT</li>
+                            <li><span>January,2019-September,2019</span><br>TEACHER <br>PRECIOUS TALENTS TOP SCHOOL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>KISII UNIVERSITY <br>BACHELORS OF SCIENCE (PURE MATHS,APPLIED MATHS and STATISTICS)</li>
+                            <li><span>2015 - 2018</span><br>JOMO KENYATTA BOYS HIGHSCHOOL <br>Scored <b>B-</b></li>
+                            <li><span>2005 - 2014</span><br>PRECIOUS TALENTS TOP SCHOOL <br>Scored <b>371 marks</b></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </div>
+    </div> 
+
+</div>
+<!------------services offered---------------------------------------------------->
+<div id ="service">
+    <div class ="container">
+        <h1 class = "sub-title"> My Services</h1>
+        <div class ="services-list">
+        <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>GRAPHIC DESIGN</h2>
+            <P>As a graphic design professional, I offer a range of services, <br>
+                including impactful poster designs, branding, and promotional materials.  <br> 
+                With a keen eye for aesthetics, I collaborate closely to bring your ideas to life and <br>
+                elevate your visual presence for lasting impact</P>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h2> DATA ANALYST</h2>
+            <P>Elevate your business strategy with my data analyst services—I offer in-depth data exploration, advanced statistical analysis, and the generation of actionable insights. Through my adept use of cutting-edge analytics tools and methodologies, I excel in converting raw data into compelling narratives, empowering you to unleash the complete potential of your valuable data assets</P>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>SOFTWARE ENGINEER</h2>
+            <P>As a seasoned software engineer, I excel in both frontend and backend development. From creating intuitive user interfaces to designing robust server-side architecture, I ensure seamless and efficient end-to-end solutions for your digital projects. Let's bring your ideas to life with my comprehensive development expertise.</P>
+            <a href="#">Learn More</a>
+        </div>
+        </div>
+     </div>
+</div>
+
+
+<!------------portfolio---------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="Work-List">
+            <div class="work">
+                <img src="image/Logo Hezekiah.png">
+                <div class="layer">
+                    <h3>Logo Design</h3>
+                    <p>logo design process involves understanding your brand's identity and audience,crafting a visually compelling logo that embodies your brand's values</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Image/Time series .png"> 
+                <div class="layer">
+                    <h3>Data analysis</h3>
+                    <p>Did a project on time series using the R software and graphical visualization were well presented from the year 2000 to 2020 </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Image/Worship Experience 1.png">
+                <div class="layer">
+                    <h3>Poster Design</h3>
+                    <p>logo design process involves understanding your brand's identity and audience, crafting a visually compelling logo that embodies your brand's values</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" Class="btn">See more</a>
+    </div>
+</div>
+
+
+<!------------Contact---------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> hezekiahnganga23@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +254712301077/+254707392550</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Image/My Resume.pdf"download class = "btn btn 2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="#" method="post"name ="submit-to-google-sheet">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name" placeholder="" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email" placeholder="" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="Message" rows="6" placeholder="" required></textarea>
+                    
+                    <button type="submit"class = "btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var  sidemenu = document.getElementById("sidemenu");
+     
+function openmenu(){
+   sidemenu.style.right =("0");
+}
+function closemenu(){
+   sidemenu.style.right =("-200px");
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgXh6DdGdJ_cCWhuFLe4kwe9o6Z6HQwXdGe7PQueK1bupuEq6U2aB-2m_MwTfGlhTDFA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message Sent Successfully";
+        setTimeout(function(){
+            msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message));
+    })
+  </script>
+
+
+
+    
+</body>
+</html>
